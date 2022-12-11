@@ -21,3 +21,4 @@ Step 3: two users connect to the server by running **./client [computer name] [p
 
 
 ## Demo
+"Demo.mov" is a Video Demo, or you can watch it [here](https://www.youtube.com/watch?v=utmKtU2O34U).
