@@ -5,7 +5,7 @@ In this project, we make a game called "the zero-sum mind reading game". Two pla
 Authors: Huandong Chang, Eamon Worden, Ruizhe Fu, Kory Rosen
 
 ## Implementation
-We build a distributed system with server and client for this game. In addition, since we have two users and allow users to communicate with each other, threads and thread synchronization are used to make it possible.
+We build a distributed system with server and client for this game. In addition, since we have two users and allow users to communicate with each other, threads and thread synchronization are used.
 
 Server: Server generates the board, calculate gain & loss, and pass messages between users.
 
