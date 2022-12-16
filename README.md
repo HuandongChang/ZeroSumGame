@@ -1,15 +1,15 @@
 # ZeroSumGame
 ## Introduction
-In this project, we make a game called "the zero-sum mind reading game". Two players will be given the same n*n board with random generated numbers, and they are assigned to be the row player (loss money) and the column player (gain money) alternatively. The row player and the column player pick their choices independently trying to minimize their loss or maximize their gains. 
+In this project, we make a game called "the zero-sum mind reading game". Two players will be given the same n*n board with randomly generated numbers, and they are assigned to be the row player (lose money) and the column player (gain money) alternatively. The row player and the column player pick their choices independently trying to minimize their loss or maximize their gains. 
 
 Authors: Huandong Chang, Eamon Worden, Ruizhe Fu, Kory Rosen
 
 ## Implementation
-We build a distributed system with server and client for this game. In addition, since we have two users and allow users to communicate with each other, threads and thread synchronization are used.
+We build a distributed system with a server and clients for this game. In addition, since we have two users and allow users to communicate with each other, threads and thread synchronization are used.
 
-Server: Server generates the board, calculate gain & loss, and pass messages between users.
+Server: The server generates the board, calculates gain & loss, and passes messages between users.
 
-Client: Interact with user, keep track of all game information, and receive user choices.
+Client: Interact with users, keep track of all game information, and receive user choices.
 
 
 ## Usage
